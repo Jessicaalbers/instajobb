@@ -30,7 +30,7 @@ h2{
 h3{
   font-weight: lighter;
   font-size: 1.2vw;
-  font-family: "Gibson";
+  font-family: Gibson, Avenir, Helvetica, sans-serif;
   margin-top: 0px;
   margin-bottom: 60px;
   color:#303088;
@@ -39,7 +39,7 @@ h3{
 input{
   font-weight: lighter;
   font-size: 1vw;
-  font-family: "Gibson";
+  font-family: Gibson, Avenir, Helvetica, sans-serif;
   width: 365px;
   height: 30px;
   background-color: #e6b0a4;
@@ -118,7 +118,7 @@ button#sok-knapp
   height: 220px;
   background-color: #e6b0a4;
   color: #303088;
-  font-family: "Gibson";
+  font-family: Gibson, Avenir, Helvetica, sans-serif;
   font-size: 1.2vw;
   font-weight: lighter;
   display: inline-block;
@@ -128,10 +128,15 @@ button#sok-knapp
 }
 
 #annonsrubrik{
-
+  width: 60%;
+  margin-left:auto;
+  margin-right: auto;
+  opacity: 1.8;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-family: "Futura-CondensedMedium","Futura TGW", "Futura";
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
   font-size: 1.4vw;
 }
 
@@ -149,7 +154,7 @@ div.headline{
 div.undertitle{
   font-weight: lighter;
   font-size: 1.2vw;
-  font-family: "Gibson";
+  font-family: Gibson, Avenir, Helvetica, sans-serif;
   margin-top: 30px;
   float: left;
   margin-left: 30px;
@@ -174,7 +179,7 @@ div.helannons{
   margin-top: -900px;
   font-weight: lighter;
   font-size: 1.2vw;
-  font-family: "Gibson";
+  font-family: Gibson, Avenir, Helvetica, sans-serif;
 }
 
 div#annonstext{
@@ -231,7 +236,7 @@ div#yrke{
   margin-bottom: 10px;
   font-weight: lighter;
   font-size: 1.2vw;
-  font-family: "Gibson";
+  font-family: Gibson, Avenir, Helvetica, sans-serif;
 }
 
 div#foretag{
@@ -243,7 +248,7 @@ div#foretag{
   margin-bottom: 10px;
   font-weight: lighter;
   font-size: 1.2vw;
-  font-family: "Gibson";
+  font-family: Gibson, Avenir, Helvetica, sans-serif;
 }
 
 div#minus{
@@ -261,7 +266,7 @@ button#sok-knapp{
   input{
   font-weight: lighter;
    font-size: 14px;
-  font-family: "Gibson";
+  font-family: Gibson, Avenir, Helvetica, sans-serif;
   width: 300px;
   height: 30px;
   background-color: #e6b0a4;
@@ -292,7 +297,7 @@ h2{
 h3{
   font-weight: lighter;
   font-size: 14px;
-  font-family: "Gibson";
+  font-family: Gibson, Avenir, Helvetica, sans-serif;
   margin-top: 0px;
   margin-bottom: 60px;
   color:#303088;
@@ -344,7 +349,7 @@ div.headline{
 div.undertitle{
   font-weight: lighter;
   font-size: 10px;
-  font-family: "Gibson";
+  font-family: Gibson, Avenir, Helvetica, sans-serif;
   margin-top: 10px;
   float: left;
   margin-left: 20px;
@@ -357,7 +362,7 @@ div.undertitle{
   height: 100px;
   background-color: #e6b0a4;
   color: #303088;
-  font-family: "Gibson";
+  font-family: Gibson, Avenir, Helvetica, sans-serif;
   font-size: 1.2vw;
   font-weight: lighter;
   display: inline-block;
@@ -377,15 +382,15 @@ div.helannons{
   padding-top: 100vw;
   margin-top: -900px;
   font-weight: lighter;
-  font-size: 1.2vw;
-  font-family: "Gibson";
+  font-size: 3.2vw;
+  font-family: Gibson, Avenir, Helvetica, sans-serif;
 }
 
 div#annonstext{
   width: 60%;
   margin-left:auto;
   margin-right: auto;
-  opacity: 1.8;
+  opacity: 3.8;
   margin-bottom: 10px;
 }
 div#yrke{
@@ -396,8 +401,8 @@ div#yrke{
   margin-top: 10px;
   margin-bottom: 10px;
   font-weight: lighter;
-  font-size: 1.2vw;
-  font-family: "Gibson";
+  font-size: 3.2vw;
+  font-family: Gibson, Avenir, Helvetica, sans-serif;
 }
 
 div#foretag{
@@ -408,8 +413,8 @@ div#foretag{
   margin-top: 10px;
   margin-bottom: 10px;
   font-weight: lighter;
-  font-size: 1.2vw;
-  font-family: "Gibson";
+  font-size: 3.2vw;
+  font-family: Gibson, Avenir, Helvetica, sans-serif;
 }
 
 div#minus{
@@ -419,7 +424,6 @@ div#minus{
 
 button#sok-knapp{
   opacity: 1.8;
-  margin-left: 50px;
   }
 
 }
