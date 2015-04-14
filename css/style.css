@@ -1,0 +1,425 @@
+body,  html {
+  margin: 0;
+  padding: 0;
+}
+
+.helannons {
+  background-color:orange;
+  opacity:0.6;
+  width:100%;
+  height:300px;
+  position:absolute;
+  top:0;
+  left:0;
+  text-align:center;
+  color:white;
+  display:none;
+}
+
+h2{
+  font-family: "Futura-CondensedMedium","Futura TGW", "Futura";
+  font-size:  3vw;
+  font-weight: lighter;
+  font-stretch: condensed;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 150px;
+  color: #303088;
+}
+
+h3{
+  font-weight: lighter;
+  font-size: 1.2vw;
+  font-family: "Gibson";
+  margin-top: 0px;
+  margin-bottom: 60px;
+  color:#303088;
+}
+
+input{
+  font-weight: lighter;
+  font-size: 1vw;
+  font-family: "Gibson";
+  width: 365px;
+  height: 30px;
+  background-color: #e6b0a4;
+  color: #303088;
+  border-style: none;
+  padding-left: 20px;
+}
+
+input#annonsimage{
+  height: 34px;
+  width: 33px;
+  float: right;
+  margin-right: 20px;
+      
+}
+
+::-webkit-input-placeholder {
+   color: #303088;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #303088; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #303088; 
+}
+
+:-ms-input-placeholder {  
+   color: #303088;  
+}
+
+button:focus,input:focus{
+  outline: 0;
+
+}
+
+button#sok-knapp
+{
+  width: 200px;
+  height: 30px; 
+  text-align: center;
+  background-color: #303088; 
+  color: #e6b0a4;
+  border-style: none;
+  font-family: "Futura";
+  font-stretch: condensed;
+}
+
+#topwrap{
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color:#e1e2e4;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#centerwrap{
+  overflow: hidden;
+  width: 100vw;
+  position: relative;
+  background-color:#e1e2e4;
+}
+
+#annonser{
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.ad{
+  width: 365px;
+  height: 220px;
+  background-color: #e6b0a4;
+  color: #303088;
+  font-family: "Gibson";
+  font-size: 1.2vw;
+  font-weight: lighter;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 15px;
+}
+
+#annonsrubrik{
+
+  font-family: "Futura-CondensedMedium","Futura TGW", "Futura";
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.4vw;
+}
+
+div.headline{
+  font-family: "Futura-CondensedMedium","Futura TGW", "Futura";
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 1.4vw;
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 230px;
+}
+
+div.undertitle{
+  font-weight: lighter;
+  font-size: 1.2vw;
+  font-family: "Gibson";
+  margin-top: 30px;
+  float: left;
+  margin-left: 30px;
+  text-align: left;
+  width: 230px;
+}
+
+div.wrap-ad{
+  float: left;
+}
+
+div.helannons{
+  background-color:#e1e2e4;
+  color: #303088;
+  width: 100vw;
+  height: 100vw;
+  z-index: 100;
+  position: relative;
+  opacity: 0.9;
+  text-align: left;
+  padding-top: 100vw;
+  margin-top: -900px;
+  font-weight: lighter;
+  font-size: 1.2vw;
+  font-family: "Gibson";
+}
+
+div#annonstext{
+  width: 60%;
+  margin-left:auto;
+  margin-right: auto;
+  opacity: 1.8;
+  margin-bottom: 10px;
+}
+
+#skatt{
+  font-family: "Futura-CondensedMedium","Futura TGW", "Futura";
+  font-size: 3vw;
+  text-align: center;
+  color: #303088;
+  background-color: #e6b0a4;
+  width: 100px;
+  height: 75px;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 25px;
+  float: right;
+  margin-right: 40px;
+}
+
+#skattinfo{
+  font-weight: lighter;
+  font-size: 1.8vw;
+  font-family: "Futura-CondensedMedium","Futura TGW", "Futura";
+  text-transform: uppercase;
+  text-align: left;
+  float: left;
+  width: 300px;
+  margin-left: 40px;
+  margin-top: 40px;
+  color: #303088;
+}
+
+ #skattwrap{
+ margin-left: auto;
+ margin-right: auto;
+ width: 600px;
+ height: 150px;
+ margin-bottom: 50px;
+ }
+
+div#yrke{
+  width: 60%;
+  margin-left:auto;
+  margin-right: auto;
+  opacity: 1.8;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+  font-size: 1.2vw;
+  font-family: "Gibson";
+}
+
+div#foretag{
+  width: 60%;
+  margin-left:auto;
+  margin-right: auto;
+  opacity: 1.8;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+  font-size: 1.2vw;
+  font-family: "Gibson";
+}
+
+div#minus{
+  float:right;
+  margin-right: 200px;
+}
+
+button#sok-knapp{
+  opacity: 1.8;
+  /*margin-left: 250px;*/
+  }
+
+  @media screen and (max-width: 560px){
+  
+  input{
+  font-weight: lighter;
+   font-size: 14px;
+  font-family: "Gibson";
+  width: 300px;
+  height: 30px;
+  background-color: #e6b0a4;
+  color: #303088;
+  border-style: none;
+  padding-left: 20px;
+}
+
+input#annonsimage{
+  height: 24px;
+  width: 23px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+h2{
+  font-family: "Futura-CondensedMedium","Futura TGW", "Futura";
+  font-size:  40px;
+  font-weight: lighter;
+  font-stretch: condensed;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 150px;
+  color: #303088;
+}
+
+h3{
+  font-weight: lighter;
+  font-size: 14px;
+  font-family: "Gibson";
+  margin-top: 0px;
+  margin-bottom: 60px;
+  color:#303088;
+}
+
+ #skattwrap{
+ margin-left: auto;
+ margin-right: auto;
+ width: 300px;
+ height: 100px;
+ }
+
+ #skatt{
+  font-family: "Futura-CondensedMedium","Futura TGW", "Futura";
+  font-size: 40px;
+  text-align: center;
+  color: #303088;
+  background-color: #e6b0a4;
+  width: 100px;
+  height: 75px;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 25px;
+  float: right;
+}
+
+#skattinfo{
+  font-weight: lighter;
+  font-size: 14px;
+  font-family: "Futura-CondensedMedium","Futura TGW", "Futura";
+  text-transform: uppercase;
+  text-align: left;
+  float: left;
+  width: 100px;
+}
+
+div.headline{
+  font-family: "Futura-CondensedMedium","Futura TGW", "Futura";
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 12px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 180px;
+}
+
+div.undertitle{
+  font-weight: lighter;
+  font-size: 10px;
+  font-family: "Gibson";
+  margin-top: 10px;
+  float: left;
+  margin-left: 20px;
+   width: 180px;
+   text-align: left;
+}
+
+.ad{
+  width: 300px;
+  height: 100px;
+  background-color: #e6b0a4;
+  color: #303088;
+  font-family: "Gibson";
+  font-size: 1.2vw;
+  font-weight: lighter;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin:10px;
+}
+div.helannons{
+  background-color:#e1e2e4;
+  color: #303088;
+  width: 100vw;
+  height: 100vw;
+  z-index: 100;
+  position: relative;
+  opacity: 0.9;
+  text-align: left;
+  padding-top: 100vw;
+  margin-top: -900px;
+  font-weight: lighter;
+  font-size: 1.2vw;
+  font-family: "Gibson";
+}
+
+div#annonstext{
+  width: 60%;
+  margin-left:auto;
+  margin-right: auto;
+  opacity: 1.8;
+  margin-bottom: 10px;
+}
+div#yrke{
+  width: 60%;
+  margin-left:auto;
+  margin-right: auto;
+  opacity: 1.8;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+  font-size: 1.2vw;
+  font-family: "Gibson";
+}
+
+div#foretag{
+  width: 60%;
+  margin-left:auto;
+  margin-right: auto;
+  opacity: 1.8;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+  font-size: 1.2vw;
+  font-family: "Gibson";
+}
+
+div#minus{
+  float:right;
+  margin-right: 20px;
+}
+
+button#sok-knapp{
+  opacity: 1.8;
+  margin-left: 50px;
+  }
+
+}

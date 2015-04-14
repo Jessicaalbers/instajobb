@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sv-SE">
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=c905773b36b7410e941b1220cf5ed883"></script>-->
+		<!--<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>-->
+		<script type="text/javascript" src="js/jquery.xdomainajax.js"></script>
+		<script src="js/script.js"></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-60828959-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+	</head>
+	<body>
+		<div id="topwrap"><br>
+			<h3 style="text-align: center;"> Detta är en prototyp som är under utveckling, för att testa tjänsten måste du för tillfället andvända Chrome och ladda ner <a href="https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en" style="color: #303088;">denna extention</a>!</h3>
+			<h2>Instajobb</h2>
+			<h3>Hitta det perfekta extrajobbet nära dig</h3>
+			<input type="text" id="myText" name="fname" placeholder="Namn på komunen du vill ha jobb i..." onfocus="this.placeholder = ''" onblur= "this.placeholder = 'Namn på komunen du vill ha jobb i...'"><br><br><br>
+			<a class="page-scroll" href="#skatt"><button id="sok-knapp">SÖK</button></a> 
+		</div>
+		<div id="centerwrap">
+			<!-- DIV FÖR SKATT API -->	
+			<div id="skattwrap">
+				<div id="skattinfo">Antal personer under 20 år som har jobbat och betalat skatt i denna kommun. Sök ett jobb nu!</div>
+					<div id="skatt"></div>
+				</div>
+			<div id="annonser"></div>
+			<div class="helannons">
+				<div id="minus"><img src="img/minus.png" style= "height: 34px", "width: 33px"/></a></div>
+				<div id="annonsrubrik"></div>
+				<div id="yrke"></div>
+				<div id="annonstext"></div>
+				<div id="foretag"></div>
+				<a id="sok-knapp-button" href=""><button id="sok-knapp">SÖK NU</button></a>
+				<!--<input id="address" type="text"><button id="dist">Distance</button>-->
+			</div>
+		</div>
+	</body>
+</html>
