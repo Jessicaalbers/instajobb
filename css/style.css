@@ -29,31 +29,131 @@ h2{
 
 h3{
   font-weight: lighter;
-  font-size: 1.2vw;
+  font-size: 1.6vw;
+  font-family: Gibson, Avenir, Helvetica, sans-serif;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color:#303088;
+}
+h4
+{
+font-family: "Futura-CondensedMedium","Futura TGW", "Futura";
+font-stretch: condensed;
+text-transform: uppercase;
+text-align: left;
+color:#303088;	
+margin-left: 30px;
+ font-size: 0.8vw;
+ margin-left: 30px;
+margin-right: 20px;
+font-weight: lighter;
+}
+
+h5{
+  font-family: "Futura-CondensedMedium","Futura TGW", "Futura";
+  font-size:  3vw;
+  font-weight: lighter;
+  font-stretch: condensed;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 150px;
+  color: #303088;
+  float: left;
+  margin-left: -50px;
+}
+
+#names{
+font-family: Gibson, Avenir, Helvetica, sans-serif;
+text-align: left;
+color:#303088;	
+font-weight: lighter;
+margin-left: 30px;
+margin-right: 20px;
+font-size: 0.8vw;
+line-height: 1vw;
+}
+
+a:-webkit-any-link{
+text-decoration: none;
+color:#303088;		
+}
+
+#infotext{
+  font-weight: lighter;
+  font-size: 0.8vw;
   font-family: Gibson, Avenir, Helvetica, sans-serif;
   margin-top: 0px;
   margin-bottom: 60px;
   color:#303088;
+  float: right;
+  margin-right: 20px;
+  width: 150px;
+  text-align: left;
+  margin-top: 20px;
 }
+
+#introtext{
+	width: 456px;
+	text-align: left;
+	margin-left: 250px;
+	float: left;
+	margin-top: 200px;
+	line-height: 1.8vw;
+	position: fixed; 
+	margin-bottom: 50px;
+}
+
+#logo{
+margin-top: 40px;
+margin-bottom: 290px;
+}
+
+#normal{
+	font-weight: normal;
+}
+
+#leftblock{
+	height: 100vh;	
+	width: 200px;
+	background-color: #e6b0a4;
+	float: left;
+	margin-top: -16px;
+	margin-bottom: 16px;
+	margin-right: 100px;
+	
+}
+
+
+
 
 input{
   font-weight: lighter;
   font-size: 1vw;
   font-family: Gibson, Avenir, Helvetica, sans-serif;
   width: 365px;
-  height: 30px;
+  height: 40px;
   background-color: #e6b0a4;
   color: #303088;
   border-style: none;
   padding-left: 20px;
+  float: left;
+  margin-top: 100px;
 }
 
 input#annonsimage{
   height: 34px;
   width: 33px;
   float: right;
-  margin-right: 20px;
+  margin-top: -10px;
+  padding-right: 10px;
+  padding-top: 10px;
       
+}
+#search{
+	margin-left: 250px;
+	float: left;
+	margin-top: 250px;
+	position: fixed; 
 }
 
 ::-webkit-input-placeholder {
@@ -79,14 +179,20 @@ button:focus,input:focus{
 
 button#sok-knapp
 {
-  width: 200px;
-  height: 30px; 
+  width: 70px;
+  height: 42px; 
   text-align: center;
   background-color: #303088; 
   color: #e6b0a4;
   border-style: none;
-  font-family: "Futura";
+  font-family: "Futura-CondensedMedium","Futura TGW", "Futura";
   font-stretch: condensed;
+  letter-spacing: 2px;
+  float: left;
+  margin-left: 0px;
+  font-size: 1vw;
+  
+  margin-top: 100px;
 }
 
 #topwrap{
@@ -187,7 +293,7 @@ div#annonstext{
   margin-left:auto;
   margin-right: auto;
   opacity: 1.8;
-  margin-bottom: 10px;
+  margin-bottom: -100px;
   line-height: 20px;
 }
 
@@ -204,7 +310,7 @@ div#annonstext{
   margin-bottom: 20px;
   padding-top: 25px;
   float: right;
-  margin-right: 40px;
+  margin-right: 30px;
 }
 
 #skattinfo{
@@ -213,9 +319,9 @@ div#annonstext{
   font-family: "Futura-CondensedMedium","Futura TGW", "Futura";
   text-transform: uppercase;
   text-align: left;
-  float: left;
+  float: right;
   width: 300px;
-  margin-left: 40px;
+  margin-right: 80px;
   margin-top: 40px;
   color: #303088;
 }
@@ -273,18 +379,137 @@ button#sok-knapp{
   /*margin-left: 250px;*/
   }
 
-  @media screen and (max-width: 560px){
-  
-  input{
+   @media screen and (max-width: 850px){
+
+    h5{
+  font-family: "Futura-CondensedMedium","Futura TGW", "Futura";
+  font-size:  3vw;
   font-weight: lighter;
-   font-size: 14px;
-  font-family: Gibson, Avenir, Helvetica, sans-serif;
+  font-stretch: condensed;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 100px;
+  color: #303088;
+  float: left;
+  margin-left: -50px;
   width: 300px;
-  height: 30px;
+  text-align: left;
+}
+
+    input{
+  font-weight: lighter;
+   font-size: 12px;
+  font-family: Gibson, Avenir, Helvetica, sans-serif;
+  width: 200px;
+  height: 40px;
   background-color: #e6b0a4;
   color: #303088;
   border-style: none;
   padding-left: 20px;
+  float: center;
+  margin-left: -62px;
+  margin-top: 0px;
+}
+
+button#sok-knapp
+{
+  width: 50px;
+  height: 42px; 
+  text-align: left;
+  background-color: #303088; 
+  color: #e6b0a4;
+  border-style: none;
+  font-family: "Futura-CondensedMedium","Futura TGW", "Futura";
+  font-stretch: condensed;
+  letter-spacing: 2px;
+  float:right;
+  margin-left: 0px;
+  font-size: 14px;
+  padding-left: 12px;
+  margin-top: 0px;
+}
+
+#search{
+  margin-left: 310px;
+  float: left;
+  margin-top: 380px;
+  position: fixed; 
+}
+
+#introtext{
+  width: 300px;
+  text-align: left;
+  float: left;
+  margin-top: 220px;
+  
+}
+
+h3{
+  font-weight: lighter;
+  font-size: 24px;
+  font-family: Gibson, Avenir, Helvetica, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  line-height: 20px;
+  color:#303088;
+  width: 300px;
+line-height: 3vw;
+}
+
+input#annonsimage {
+  height: 34px;
+  width: 33px;
+  float: right;
+  margin-top: -1px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+   }
+
+
+  @media screen and (max-width: 560px){
+  
+  input{
+  font-weight: lighter;
+   font-size: 12px;
+  font-family: Gibson, Avenir, Helvetica, sans-serif;
+  width: 200px;
+  height: 40px;
+  background-color: #e6b0a4;
+  color: #303088;
+  border-style: none;
+  padding-left: 20px;
+  float: center;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+#introtext{
+	width: 300px;
+	text-align: left;
+	margin-left: 0px;
+	float: left;
+	margin-top: 350px;
+	line-height: 1.8vw;
+	margin-left: 42px;
+}
+
+button#sok-knapp
+{
+  width: 50px;
+  height: 42px; 
+  text-align: left;
+  background-color: #303088; 
+  color: #e6b0a4;
+  border-style: none;
+  font-family: "Futura-CondensedMedium","Futura TGW", "Futura";
+  font-stretch: condensed;
+  letter-spacing: 2px;
+  float:right;
+  margin-left: 0px;
+  font-size: 14px;
+  padding-left: 12px;
+  margin-top: 0px;
 }
 
 input#annonsimage{
@@ -308,11 +533,13 @@ h2{
 
 h3{
   font-weight: lighter;
-  font-size: 14px;
+  font-size: 16px;
   font-family: Gibson, Avenir, Helvetica, sans-serif;
   margin-top: 0px;
   margin-bottom: 60px;
+  line-height: 20px;
   color:#303088;
+  width: 300px;
 }
 
  #skattwrap{
@@ -438,6 +665,7 @@ div#minus{
 button#sok-knapp{
   opacity: 1.8;
   }
+
 #annonsrubrik{
   width: 60%;
   margin-left:auto;
@@ -449,6 +677,62 @@ button#sok-knapp{
   text-transform: uppercase;
   text-align: left;
   font-size: 3.4vw;
+}
+
+#logo{
+margin-top: 40px;
+margin-bottom: 310px;
+margin-left: 100px;
+}
+
+#normal{
+	font-weight: normal;
+}
+
+#leftblock{
+	height: 206px;	
+	width: 200px;
+	background-color: #e1e2e4;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 16px;
+	margin-right: 20px;
+	
+}
+
+#bottomblock{
+	display: none;
+}
+
+#infotext{
+	display: none;
+}
+h4{
+	display: none;
+}
+#names{
+	display: none;
+}
+
+#search{
+  margin-left: 42px;
+  float: left;
+  margin-top: 450px;
+  position: fixed; 
+}
+   h5{
+  font-family: "Futura-CondensedMedium","Futura TGW", "Futura";
+  font-size:  4vw;
+  font-weight: lighter;
+  font-stretch: condensed;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 300px;
+  color: #303088;
+  float: left;
+  margin-left: -178px;
+  width: 300px;
+  text-align: left;
 }
 
 }

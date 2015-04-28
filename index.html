@@ -22,16 +22,31 @@
 	</head>
 	<body>
 		<div id="topwrap"><br>
-			<h3 style="text-align: center;"> Detta är en prototyp som är under utveckling, för att testa tjänsten måste du för tillfället andvända Chrome och ladda ner <a href="https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en" style="color: #303088;">denna extension</a>!</h3>
-			<h2>Instajobb</h2>
-			<h3>Hitta det perfekta extrajobbet nära dig</h3>
-			<input type="text" id="myText" name="fname" placeholder="Namn på komunen du vill ha jobb i..." onfocus="this.placeholder = ''" onblur= "this.placeholder = 'Namn på komunen du vill ha jobb i...'"><br><br><br>
-			<a class="page-scroll" href="#skatt"><button id="sok-knapp">SÖK</button></a> 
+
+		<div id="leftblock">
+			<div id="logo"><img src="logga_ny.png"  height="225" width="200"></div>
+			<h4>Detta är ett Hyper Island student project av:</h4>
+			<div id="names">
+			<a href="mailto:jessica.albers@hyperisland.se">Jessica Albers</a></br>
+			<a href="mailto:safaa.allouch@hyperisland.se">Safaa Allouch</a></br>
+			<a href="mailto:hanne.jalborg@hyperisland.se">Hanne Jalborg</a></br>
+			<a href="mailto:emelie.norstrom@hyperisland.se">Emelie Norström</a>
+			</div>
+		</div>
+
+			<div id="infotext"> Detta är en prototyp som är under utveckling, för att testa tjänsten måste du för tillfället andvända Chrome och ladda ner <a href="https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en" style="color: #303088;"><div id="normal">denna extension</a>!</div></div>
+			<!--<h2>Instajobb</h2>-->
+			<h5>Hitta det perfekta extrajobbet nära dig</h5>
+			<div id="introtext"><h3>På instajobb har vi samlat alla aktuella platsannonser för de jobb du kan söka om du är ung, saknar tidigare erfarenhet och är sugen på ett extrajobb.</h3></div>
+			<div id="search">
+			<input type="text" id="myText" name="fname" placeholder="Namn på komunen du vill ha jobb i..." onfocus="this.placeholder = ''" onblur= "this.placeholder = 'Namn på komunen du vill ha jobb i...'">
+			<a class="page-scroll" href="#skatt"><button id="sok-knapp">SÖK</button></a> </div>
+			<div id="bottomblock"> </div>
 		</div>
 		<div id="centerwrap">
 			<!-- DIV FÖR SKATT API -->	
 			<div id="skattwrap">
-				<div id="skattinfo">Antal personer under 20 år som har jobbat och betalat skatt i denna kommun. Sök ett jobb nu!</div>
+				<div id="skattinfo">Personer under 20 år har jobbat och betalat skatt i denna kommun. Sök ett jobb nu!</div>
 					<div id="skatt"></div>
 				</div>
 			<div id="annonser"></div>
